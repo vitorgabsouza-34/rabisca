@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "esbuild": "^0.28.1"
+  },
+  "scripts": {
+    "build:css": "npx esbuild resources/css/application.css --bundle --watch --minify --outfile=../html/rabisca/css/application.min.css",
+    "build:javascript": "npx esbuild resources/javascript/application.js --bundle --watch --minify --outfile=../html/rabisca/javascript/application.min.js"
+  }
+}
